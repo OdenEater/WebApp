@@ -1,0 +1,10 @@
+CREATE DATABASE systemDB CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+
+USE systemDB;
+
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL
+);
+
+

@@ -8,6 +8,8 @@ eclipse.wtp.facet.facet name: 'jst.web', version: '6.0'
 repositories.mavenCentral()
 
 dependencies {
+	// https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
+	implementation 'com.mysql:mysql-connector-j:8.4.0'
 	// https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api
 	compileOnly 'jakarta.servlet:jakarta.servlet-api:6.0.0'
 	compileOnly 'org.apache.tomcat:tomcat-servlet-api:10.1.+'
